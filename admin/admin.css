@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/************navigáció***************/
+nav ul {
+    display: flex;
+    gap: 5px;
+    padding: 0px;
+}
+nav ul li {
+    padding: 3px 10px;
+    border: 1px solid lavender;
+    border-radius: 5px;
+    list-style-type: none;
+}
+nav ul li:hover {
+    background: lavender;
+}
+nav ul a {
+    text-decoration: none;
+}
+/***********oldalszerkezet**************/
+main {
+    /* min-width: 770px; */
+    width: 70%;
+    margin: auto;
+    background-color: lavenderblush;
+}
+article {
+    display: grid;
+    grid-template-columns: 4fr 200px;
+    padding: 15px;
+    gap: 10px;
+}
+.termekek div {
+    border: 1px solid lavender;
+    background-color: white;
+    border-radius: 5px;
+}
+/**********termékek *******************/
+
+
+.termek {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 12pt;
+    padding-bottom: 30px;
+}
+
+
+.termek img {
+    border: 1px solid lavender;
+    border-radius: 5px;
+
+    width: 80%;
+}
+table tr td{
+border: 1px solid black;
+}
